@@ -39,6 +39,6 @@ resource "aws_security_group" "TerraformEc2_Security" {
 
   tags = {
     Name = "TerraformEc2_Security"
-    instcane_name = "Terraform-Ec2"
+    instance_name = "Terraform-Ec2"
   }
 }
